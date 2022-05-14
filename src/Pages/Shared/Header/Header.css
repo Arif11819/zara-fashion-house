@@ -4,7 +4,7 @@
 
 .title-first-letter {
     font-size: 80px;
-    color: rgb(45, 203, 151);
+    color: rgb(230, 52, 52);
 }
 
 .tilte-letter {
@@ -15,7 +15,7 @@
 .navbar-link {
     font-size: 20px;
     font-weight: 500;
-    margin-top: 18px;
+    /* margin-top: 18px; */
 }
 
 /* .navbar-link a:hover {

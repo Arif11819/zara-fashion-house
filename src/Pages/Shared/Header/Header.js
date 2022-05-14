@@ -14,9 +14,13 @@ const Header = () => {
         signOut(auth);
         navigate('/login');
     }
+
+    const handleNavigateToManageItems = () => {
+        navigate('/manageItems');
+    }
     return (
-        <div>
-            <Navbar>
+        <>
+            <Navbar collapseOnSelect sticky='top' expand="lg" bg="info" variant="dark">
                 <Container>
                     <div className='title'>
                         <Navbar.Brand href="/home"><span className='title-first-letter'>Z</span><span className='tilte-letter'>ARA FASHION HOUSE</span></Navbar.Brand>
@@ -24,8 +28,12 @@ const Header = () => {
                     <div>
                         <Nav className="me-auto navbar-link">
                             <Nav.Link className='text-dark' as={Link} to="home">Home</Nav.Link>
-                            <Nav.Link className='text-dark' as={Link} to="items">Items</Nav.Link>
                             <Nav.Link className='text-dark' as={Link} to="blogs">Blogs</Nav.Link>
+                            {
+                                user && <>
+                                    <button onClick={handleNavigateToManageItems} className='btn btn-link text-dark text-decoration-none fw-bolder'>Manage Items</button>
+                                </>
+                            }
                             {
                                 user ?
                                     <button className='btn btn-link text-dark text-decoration-none sign-out' onClick={handleSignOUt}>Sign Out</button>
@@ -38,7 +46,7 @@ const Header = () => {
                     </div>
                 </Container>
             </Navbar>
-        </div>
+        </>
     );
 };
 

@@ -7,8 +7,8 @@ const InventoryItem = ({ item }) => {
     const { _id, name, picture, description, price, quantity, supplier } = item;
     const navigate = useNavigate();
 
-    const handleNavigateToItems = () => {
-        navigate('/items');
+    const handleNavigateToItems = (id) => {
+        navigate(`/items/${id}`);
     }
 
     return (
@@ -35,7 +35,7 @@ const InventoryItem = ({ item }) => {
                         <td className='text-center'>{description}</td>
                         <td className='text-center'>{quantity}</td>
                         <td className='text-center'>{supplier}</td>
-                        <td className='text-center'><button onClick={handleNavigateToItems} className='update-btn'>Update</button></td>
+                        <td className='text-center'><button onClick={() => handleNavigateToItems(_id)} className='update-btn'>Update</button></td>
                     </tr>
                 </tbody>
             </Table>

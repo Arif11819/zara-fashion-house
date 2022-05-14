@@ -6,6 +6,7 @@ import auth from '../../../firebase.init';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Loading from '../../Shared/Loading/Loading';
+import SocialLogin from './SocialLogin/SocialLogin';
 
 const Login = () => {
     const emailRef = useRef('');
@@ -76,6 +77,7 @@ const Login = () => {
             {errorElement}
             <p>New to Zara Fashion House?<Link to="/register" className='text-danger pe-auto text-decoration-none' onClick={navigateRegister}>Please Register</Link> </p>
             <p>Forget Password?<button className='btn btn-link text-danger pe-auto text-decoration-none' onClick={resetPassword}>Reset Password</button> </p>
+            <SocialLogin></SocialLogin>
             <ToastContainer />
         </div>
     );
