@@ -43,7 +43,7 @@ const Register = () => {
 
     return (
         <div className='container w-50 mx-auto'>
-            <h2 className='text-primary text-center mt-2'>Please Register</h2>
+            <h2 className='text-danger text-center mt-2'>Please Register</h2>
             <Form onSubmit={handleRegister}>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Your Name</Form.Label>
@@ -60,11 +60,11 @@ const Register = () => {
                 </Form.Group>
                 <input onClick={() => setAgree(!agree)} className='me-2 mb-2' type="checkbox" name="terms" id="terms" />
                 <label className={agree ? 'text-primary' : 'text-danger'} htmlFor="terms">Accept Terms and Conditions</label>
-                <Button disabled={!agree} variant="primary w-50 mx-auto d-block mb-2 mt-2" type="submit">
+                <Button disabled={!agree} variant="danger w-50 mx-auto d-block mb-2 mt-2" type="submit">
                     Register
                 </Button>
             </Form>
-            <p>Already hane an account? <Link to='/login' className='text-primary' style={{ textDecoration: 'none' }}>Please Login</Link></p>
+            <p>Already have an account? <Link to='/login' className='text-danger' style={{ textDecoration: 'none' }}>Please Login</Link></p>
         </div >
     );
 };

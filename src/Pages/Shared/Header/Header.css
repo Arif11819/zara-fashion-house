@@ -3,13 +3,24 @@
 }
 
 .title-first-letter {
+    font-size: 80px;
+    color: rgb(45, 203, 151);
+}
+
+.tilte-letter {
+    color: rgb(230, 52, 52);
     font-size: 40px;
 }
 
 .navbar-link {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 500;
+    margin-top: 18px;
 }
+
+/* .navbar-link a:hover {
+    background-color: salmon;
+} */
 
 .sign-out {
     font-size: 18px;

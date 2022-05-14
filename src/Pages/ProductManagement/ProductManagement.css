@@ -1,0 +1,28 @@
+.product-management-section {
+    margin-top: 150px;
+    display: flex;
+}
+
+.product-management-pic {
+    margin-left: 150px;
+    margin-bottom: 50px;
+    margin-right: 150px;
+}
+
+.product-management-pic img {
+    height: 420px;
+    border-radius: 5px;
+}
+
+.product-management-list h1 {
+    color: rgb(230, 52, 52);
+}
+
+.product-management-list h1 span {
+    font-size: 80px;
+    color: rgb(45, 203, 151);
+}
+
+.product-management-list h4 {
+    margin-top: 15px;
+}

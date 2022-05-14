@@ -19,13 +19,13 @@ const Header = () => {
             <Navbar>
                 <Container>
                     <div className='title'>
-                        <Navbar.Brand href="/home"><span className='title-first-letter'>Z</span>ARA FASHION HOUSE</Navbar.Brand>
+                        <Navbar.Brand href="/home"><span className='title-first-letter'>Z</span><span className='tilte-letter'>ARA FASHION HOUSE</span></Navbar.Brand>
                     </div>
-                    <div className='navbar-link'>
-                        <Nav className="me-auto">
-                            <Nav.Link className='text-dark' href="/home">Home</Nav.Link>
-                            <Nav.Link className='text-dark' href="/items">Items</Nav.Link>
-                            <Nav.Link className='text-dark' href="/blogs">Blogs</Nav.Link>
+                    <div>
+                        <Nav className="me-auto navbar-link">
+                            <Nav.Link className='text-dark' as={Link} to="home">Home</Nav.Link>
+                            <Nav.Link className='text-dark' as={Link} to="items">Items</Nav.Link>
+                            <Nav.Link className='text-dark' as={Link} to="blogs">Blogs</Nav.Link>
                             {
                                 user ?
                                     <button className='btn btn-link text-dark text-decoration-none sign-out' onClick={handleSignOUt}>Sign Out</button>

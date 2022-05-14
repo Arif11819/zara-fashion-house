@@ -1,0 +1,28 @@
+.improve-section {
+    margin-top: 120px;
+    margin-bottom: 70px;
+    display: flex;
+}
+
+.improve-section-text {
+    margin-left: 250px;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.improve-section-text h1 {
+    color: rgb(250, 60, 60);
+}
+
+.improve-section-text h1 span {
+    font-size: 60px;
+    color: rgb(33, 25, 14);
+}
+
+.improve-section-pic {
+    margin-left: 70px;
+}
+
+.improve-section img {
+    border-radius: 5px;
+}

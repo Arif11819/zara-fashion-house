@@ -1,11 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
-import banner1 from '../../../images/banner/banner1.jpg';
-import banner2 from '../../../images/banner/banner2.jpg';
-import banner3 from '../../../images/banner/banner3.jpg';
 import './Banner.css';
 
 const Banner = () => {
+    const banner1 = 'https://images.unsplash.com/photo-1501523460185-2aa5d2a0f981?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHdhcmVob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60';
+    const banner2 = 'https://images.unsplash.com/photo-1589792923962-537704632910?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjV8fHdhcmVob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60';
+    const banner3 = 'https://images.unsplash.com/photo-1622030360273-a8d1377be08b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NzN8fHdhcmVob3VzZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60';
     return (
         <div className='banner-section'>
             <Carousel>

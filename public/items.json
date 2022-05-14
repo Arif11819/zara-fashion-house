@@ -29,14 +29,59 @@
     {
         "_id": 4,
         "name": "Empire line dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
+        "description": "This is a  high waist dress that has a fitting bodice till just under the bust and then a flowy silhouette",
         "picture": "https://images.unsplash.com/photo-1567290290527-b553f4d97960?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHlva2UlMjBkcmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
         "price": 120,
         "quantity": 6,
+        "supplier": "Rafi"
+    },
+    {
+        "_id": 5,
+        "name": "Shift dress",
+        "description": "This is a short sleeveless dress  that skims the body without a fitted waist.",
+        "picture": "https://images.unsplash.com/photo-1647550811980-2cc8d9a01d61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8c2hpZnQlMjBkcmVzc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60",
+        "price": 170,
+        "quantity": 7,
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 6,
+        "name": "Dirndl dress",
+        "description": "This is a European traditional dress originally worn by peasants there;The dress has an apron with lacing on the back or front.",
+        "picture": "https://images.unsplash.com/photo-1626374606248-e2e5de18f420?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8ZGlybmRsJTIwZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 220,
+        "quantity": 10,
+        "supplier": "Siam"
+    },
+    {
+        "_id": 7,
+        "name": "Sheath dress",
+        "description": "A close fitting dress usually ending near the knee. Usually there will be a slit in the back so that you can walk comfortably.",
+        "picture": "https://images.unsplash.com/photo-1562964568-192c14d85b6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8c2hlYXRoJTIwZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 320,
+        "quantity": 3,
+        "supplier": "Robart"
+    },
+    {
+        "_id": 8,
+        "name": "drop waist dress",
+        "description": "This is a loose fitting dress with the skirt seam being somewhere near the hip rather than at the waist length.",
+        "picture": "https://images.unsplash.com/photo-1573664333795-cca352e9a15e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGRyb3AlMjB3YWlzdCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "price": 231,
+        "quantity": 9,
+        "supplier": "Donald"
+    },
+    {
+        "_id": 9,
+        "name": "Tunic dress",
+        "description": "This is a loose fitting dress ending near the hips  or near the knee , usually with slits on the side seams.",
+        "picture": "https://images.unsplash.com/flagged/photo-1557310298-9d6633ff5b66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHR1bmljJTIwZHJlc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+        "price": 200,
+        "quantity": 7,
+        "supplier": "Mahdi"
+    },
+    {
+        "_id": 10,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -45,7 +90,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 11,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -54,7 +99,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 12,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -63,7 +108,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 13,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -72,7 +117,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 14,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -81,7 +126,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 15,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -90,7 +135,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 16,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -99,7 +144,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 17,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -108,7 +153,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 18,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -117,7 +162,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 19,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -126,7 +171,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 20,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -135,7 +180,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 21,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -144,7 +189,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 22,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -153,7 +198,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 23,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -162,7 +207,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
+        "_id": 24,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
@@ -171,52 +216,7 @@
         "supplier": "Arif"
     },
     {
-        "_id": 2,
-        "name": "Tent dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
-        "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 120,
-        "quantity": 6,
-        "supplier": "Arif"
-    },
-    {
-        "_id": 2,
-        "name": "Tent dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
-        "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 120,
-        "quantity": 6,
-        "supplier": "Arif"
-    },
-    {
-        "_id": 2,
-        "name": "Tent dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
-        "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 120,
-        "quantity": 6,
-        "supplier": "Arif"
-    },
-    {
-        "_id": 2,
-        "name": "Tent dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
-        "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 120,
-        "quantity": 6,
-        "supplier": "Arif"
-    },
-    {
-        "_id": 2,
-        "name": "Tent dress",
-        "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
-        "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
-        "price": 120,
-        "quantity": 6,
-        "supplier": "Arif"
-    },
-    {
-        "_id": 2,
+        "_id": 25,
         "name": "Tent dress",
         "description": "A shapeless tentlike full dress,  that hangs loosely from the shoulders; it has a baggy silhouette and is usually worn short. The airy billowy dress is a favorite as a summer wear.",
         "picture": "https://images.unsplash.com/photo-1529636273736-fc88b31ea9d9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dGVudCUyMGRyZXNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
