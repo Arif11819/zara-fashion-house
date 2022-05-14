@@ -1,0 +1,19 @@
+.banner-section {
+    margin-bottom: 50px;
+}
+
+.banner-picture {
+    height: 600px;
+    width: 100%;
+}
+
+.banner-button {
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: rgb(207, 241, 241);
+}
+
+.banner-button {
+    font-weight: 500;
+}

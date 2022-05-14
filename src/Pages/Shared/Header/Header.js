@@ -24,7 +24,7 @@ const Header = () => {
                     <div className='navbar-link'>
                         <Nav className="me-auto">
                             <Nav.Link className='text-dark' href="/home">Home</Nav.Link>
-                            <Nav.Link className='text-dark' href="/inventory">Inventory</Nav.Link>
+                            <Nav.Link className='text-dark' href="/items">Items</Nav.Link>
                             <Nav.Link className='text-dark' href="/blogs">Blogs</Nav.Link>
                             {
                                 user ?
