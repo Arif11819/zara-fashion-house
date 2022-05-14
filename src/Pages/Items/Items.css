@@ -1,0 +1,15 @@
+.inventory-items {
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.picture {
+    width: 100px;
+    height: 80px;
+}
+
+.delivered-btn {
+    border: none;
+    border-radius: 5px;
+}
