@@ -1,0 +1,17 @@
+.title {
+    font-weight: 700;
+}
+
+.title-first-letter {
+    font-size: 40px;
+}
+
+.navbar-link {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sign-out {
+    font-size: 18px;
+    font-weight: 500;
+}
