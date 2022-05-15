@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Route, Routes } from 'react-router-dom';
+import AddNewInventory from './Pages/AddNewInventory/AddNewInventory';
 import Home from './Pages/Home/Home';
 import Items from './Pages/Items/Items';
 import Login from './Pages/Login/Login/Login';
@@ -27,6 +28,11 @@ function App() {
         <Route path='/manageItems' element={
           <RequireAuth>
             <ManageItems></ManageItems>
+          </RequireAuth>
+        }></Route>
+        <Route path='/addInventory' element={
+          <RequireAuth>
+            <AddNewInventory></AddNewInventory>
           </RequireAuth>
         }></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>

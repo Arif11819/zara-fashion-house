@@ -19,7 +19,7 @@ const InventoryItems = () => {
 
     return (
         <div>
-            <h1 className='text-center mx-auto'>Inventory Items</h1>
+            <h1 className='text-center text-danger mx-auto'>Inventory Items</h1>
             <div>
                 {
                     allItems.map(item => <InventoryItem

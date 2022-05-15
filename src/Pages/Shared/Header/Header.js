@@ -18,6 +18,9 @@ const Header = () => {
     const handleNavigateToManageItems = () => {
         navigate('/manageItems');
     }
+    const handleNavigateToAddInventory = () => {
+        navigate('/addInventory');
+    }
     return (
         <>
             <Navbar collapseOnSelect sticky='top' expand="lg" bg="info" variant="dark">
@@ -32,6 +35,7 @@ const Header = () => {
                             {
                                 user && <>
                                     <button onClick={handleNavigateToManageItems} className='btn btn-link text-dark text-decoration-none fw-bolder'>Manage Items</button>
+                                    <button onClick={handleNavigateToAddInventory} className='btn btn-link text-dark text-decoration-none fw-bolder'>Add Items</button>
                                 </>
                             }
                             {
