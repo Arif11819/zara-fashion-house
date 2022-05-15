@@ -13,7 +13,17 @@ const Items = () => {
         fetch(url)
             .then(res => res.json())
             .then(data => setItems(data));
-    }, [])
+    }, []);
+
+    // document.getElementById('delivered-btn').addEventListener('click', function () {
+    //     const quantity = document.getElementById('quantity-field');
+    //     const previousQuantity = quantity.innerText;
+    //     const newQuantity = (previousQuantity - 1);
+    //     newQuantity.innerText = previousQuantity;
+
+    // });
+
+
     return (
         <div className='inventory-items'>
             <Table striped bordered hover variant="dark">
@@ -36,9 +46,9 @@ const Items = () => {
                         <td className='text-center'><img className='picture' src={items.picture} alt="" /></td>
                         <td className='text-center'>${items.price}</td>
                         <td className='text-center'>{items.description}</td>
-                        <td className='text-center'>{items.quantity}</td>
+                        <td className='text-center'><span id='quantity-field' >{items.quantity}</span></td>
                         <td className='text-center'>{items.supplier}</td>
-                        <td className='text-center'><button className='delivered-btn'>Delivered</button></td>
+                        <td id='delivered-btn' className='text-center'><button className='delivered-btn'>Delivered</button></td>
                     </tr>
                 </tbody>
             </Table>
