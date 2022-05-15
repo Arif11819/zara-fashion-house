@@ -1,0 +1,19 @@
+.inventory-items {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.picture {
+    width: 100px;
+    height: 80px;
+}
+
+.update-btn {
+    border: none;
+    border-radius: 5px;
+}
+
+.delete-btn {
+    border: none;
+    border-radius: 5px;
+}
