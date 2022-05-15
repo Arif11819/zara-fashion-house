@@ -67,7 +67,7 @@ const ManageItems = () => {
 
                 </div>)
             }
-            <button onClick={handleAddNewInventory} className='btn btn-dark manage-inventory-btn'>Add New Item</button>
+            <button onClick={handleAddNewInventory} className='btn btn-dark mx-auto d-block manage-inventory-btn'>Add New Item</button>
         </div>
     );
 };

@@ -6,6 +6,7 @@ import './Items.css';
 const Items = () => {
     const { itemsId } = useParams();
     const [items, setItems] = useState({});
+    // const [item, setItem] = useState(0);
 
     useEffect(() => {
         const url = `http://localhost:5000/items/${itemsId}`;
@@ -15,13 +16,25 @@ const Items = () => {
             .then(data => setItems(data));
     }, []);
 
-    // document.getElementById('delivered-btn').addEventListener('click', function () {
-    //     const quantity = document.getElementById('quantity-field');
-    //     const previousQuantity = quantity.innerText;
-    //     const newQuantity = (previousQuantity - 1);
-    //     newQuantity.innerText = previousQuantity;
+    const handleQuantityReduce = () => {
 
-    // });
+        const quantity = document.getElementById('quantity-field');
+        const previousQuantity = quantity.innerText;
+        const newQuantity = previousQuantity - 1;
+        quantity.innerText = newQuantity;
+
+
+    }
+
+    const handleAddQuantity = event => {
+        event.preventDefault();
+        const quantity = document.getElementById('quantity-field');
+        const addInputField = document.getElementById('add-quantity');
+        const previousQuantity = parseInt(quantity.innerText);
+        const addInputValue = parseInt(addInputField.value);
+        // console.log(previousQuantity, addInputValue);
+        quantity.innerText = previousQuantity + addInputValue;
+    }
 
 
     return (
@@ -46,12 +59,15 @@ const Items = () => {
                         <td className='text-center'><img className='picture' src={items.picture} alt="" /></td>
                         <td className='text-center'>${items.price}</td>
                         <td className='text-center'>{items.description}</td>
-                        <td className='text-center'><span id='quantity-field' >{items.quantity}</span></td>
+                        <td className='text-center'><span id='quantity-field'>{items.quantity}</span></td>
                         <td className='text-center'>{items.supplier}</td>
-                        <td id='delivered-btn' className='text-center'><button className='delivered-btn'>Delivered</button></td>
+                        <td className='text-center'><button onClick={handleQuantityReduce} className='delivered-btn'>Delivered</button></td>
                     </tr>
                 </tbody>
             </Table>
+            <form>
+                <p className='fw-bolder text-center mx-auto text-danger'>Please Add Quantity: <input id='add-quantity' type="number" name="quantity" /> <button onClick={handleAddQuantity} className='btn btn-danger'>Add</button> </p>
+            </form>
         </div>
     );
 };
