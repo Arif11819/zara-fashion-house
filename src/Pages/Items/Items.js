@@ -6,7 +6,6 @@ import './Items.css';
 const Items = () => {
     const { itemsId } = useParams();
     const [items, setItems] = useState({});
-    // const [item, setItem] = useState(0);
 
     useEffect(() => {
         const url = `http://localhost:5000/items/${itemsId}`;
@@ -32,7 +31,6 @@ const Items = () => {
         const addInputField = document.getElementById('add-quantity');
         const previousQuantity = parseInt(quantity.innerText);
         const addInputValue = parseInt(addInputField.value);
-        // console.log(previousQuantity, addInputValue);
         quantity.innerText = previousQuantity + addInputValue;
     }
 

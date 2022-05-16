@@ -1,10 +1,11 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
+import { useNavigate } from 'react-router-dom';
 
 const AddNewInventory = () => {
     const { register, handleSubmit } = useForm();
+    const navigate = useNavigate();
     const onSubmit = data => {
-        console.log(data);
         const url = `http://localhost:5000/items`;
         fetch(url, {
             method: 'POST',
@@ -17,6 +18,7 @@ const AddNewInventory = () => {
             .then(result => {
                 console.log(result);
             })
+        navigate('/manageItems');
     };
     return (
         <div className='w-50 mx-auto'>
