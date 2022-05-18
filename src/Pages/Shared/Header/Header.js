@@ -2,13 +2,14 @@ import { signOut } from 'firebase/auth';
 import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { useAuthState } from 'react-firebase-hooks/auth';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import auth from '../../../firebase.init';
 import './Header.css';
 
 const Header = () => {
     const [user] = useAuthState(auth);
     const navigate = useNavigate();
+    const { itemsId } = useParams();
 
     const handleSignOUt = () => {
         signOut(auth);
@@ -24,7 +25,7 @@ const Header = () => {
     }
 
     const handleNavigateToMyItems = () => {
-        navigate('/myItems');
+        navigate(`/myItems/${itemsId}`);
     }
 
     return (

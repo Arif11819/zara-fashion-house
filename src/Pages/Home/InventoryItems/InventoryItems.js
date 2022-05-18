@@ -8,7 +8,7 @@ const InventoryItems = () => {
     const allItems = items.slice(0, 6);
     const navigate = useNavigate();
     useEffect(() => {
-        fetch('http://localhost:5000/items')
+        fetch('https://sleepy-everglades-51277.herokuapp.com/items')
             .then(res => res.json())
             .then(data => setItems(data))
     }, [])

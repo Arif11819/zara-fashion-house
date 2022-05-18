@@ -1,19 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import { useParams } from 'react-router-dom';
+import useAddItemsDetail from '../../hooks/useAddItemsDetail';
 import './Items.css';
 
 const Items = () => {
     const { itemsId } = useParams();
-    const [items, setItems] = useState({});
+    const [items] = useAddItemsDetail(itemsId);
 
-    useEffect(() => {
-        const url = `http://localhost:5000/items/${itemsId}`;
-
-        fetch(url)
-            .then(res => res.json())
-            .then(data => setItems(data));
-    }, []);
 
     const handleQuantityReduce = () => {
 
@@ -21,6 +15,16 @@ const Items = () => {
         const previousQuantity = quantity.innerText;
         const newQuantity = previousQuantity - 1;
         quantity.innerText = newQuantity;
+
+        // fetch(url, {
+        //     method: 'PUT',
+        //     headers: { 'Content-Type': 'application/json' },
+        //     body: JSON.stringify
+        // })
+        //     .then(res => res.json())
+        //     .then(data => {
+        //         console.log(data);
+        //     })
 
 
     }
