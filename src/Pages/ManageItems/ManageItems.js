@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Table } from 'react-bootstrap';
 import { useNavigate } from 'react-router-dom';
 import useItems from '../../hooks/useItems';
@@ -7,6 +7,27 @@ import './ManageItems.css';
 const ManageItems = () => {
     const [items, setItems] = useItems();
     const navigate = useNavigate();
+    const [pageCount, setPageCount] = useState(0);
+    const [page, setPage] = useState(0);
+    const [size, setSize] = useState(10);
+    const [products, setProducts] = useState([]);
+
+    useEffect(() => {
+        fetch(`http://localhost:5000/items?page=${page}&size=${size}`)
+            .then(res => res.json())
+            .then(data => setProducts(data));
+
+    }, [page, size]);
+
+    useEffect(() => {
+        fetch('http://localhost:5000/productCount')
+            .then(res => res.json())
+            .then(data => {
+                const count = data.count;
+                const pages = Math.ceil(count / 10);
+                setPageCount(pages);
+            })
+    }, []);
 
     const handleAddNewInventory = () => {
         navigate('/addInventory');
@@ -67,6 +88,21 @@ const ManageItems = () => {
 
                 </div>)
             }
+            <div className='pagination'>
+                {
+                    [...Array(pageCount).keys()]
+                        .map(number => <button
+                            className={page === number ? 'selected' : ''}
+                            onClick={() => setPage(number)}
+                        >{number}</button>)
+                }
+                <select onChange={e => setSize(e.target.value)}>
+                    <option value="5">5</option>
+                    <option value="10" selected>10</option>
+                    <option value="15">15</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
             <button onClick={handleAddNewInventory} className='btn btn-dark mx-auto d-block manage-inventory-btn'>Add New Item</button>
         </div>
     );

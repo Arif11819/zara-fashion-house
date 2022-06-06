@@ -38,7 +38,7 @@ const Header = () => {
                     <div>
                         <Nav className="me-auto navbar-link">
                             <Nav.Link className='text-dark' as={Link} to="home">Home</Nav.Link>
-                            <Nav.Link className='text-dark' as={Link} to="blogs">Blogs</Nav.Link>
+                            {/* <Nav.Link className='text-dark' as={Link} to="blogs">Blogs</Nav.Link> */}
                             {
                                 user && <>
                                     <button onClick={handleNavigateToManageItems} className='btn btn-link text-dark text-decoration-none manage-items'>Manage Items</button>

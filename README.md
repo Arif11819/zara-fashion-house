@@ -13,7 +13,6 @@ To deploy this project in firebase.
 - Look a beautiful banner.
 - Previews all 6 items in home page.
 - Previews all items in manage inventory page.
-- Fullscreen mode.
 - Clicking add items , you can add a new items.
 - If you not Register/Login.
 
