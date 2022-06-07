@@ -10,9 +10,10 @@ To deploy this project in firebase.
 
 ## Features
 
-- Look a beautiful banner.
-- Previews all 6 items in home page.
-- Previews all items in manage inventory page.
+- Inventory Items Update, Delete, Add Items, Quantity Increases and Decreases, etc
+  implement.
+- Login, Registration, Email verification, Reset password system added.
+- Google and GitHub popup login system.
 - Clicking add items , you can add a new items.
 - If you not Register/Login.
 
